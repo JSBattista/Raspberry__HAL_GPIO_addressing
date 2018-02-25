@@ -19,4 +19,6 @@ mask:
  
  The values are ANDed together. 
  
- More to come as the original notes are found
+Here is an example. It uses 10 outputs and 4 inputs, and then excludes all other pins.
+
+loadrt hal_gpio dir=51413895 exclude=15561824
